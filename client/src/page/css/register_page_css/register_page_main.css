@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container-primary-registration {
+    display: flex;
+    width: 1920px;
+    height: 995px;
+}
+/* button css here */
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+/* left container css */
+    .container-primary-registration .left-container {
+        width: 960px;
+        height: 995px;
+    }
+        .left-container img {
+            width: 960px;
+            height: 995px;
+            object-fit: cover;
+        }
+/* right container css */
+    .container-primary-registration .right-container {
+        display: flex;
+        width: 960px;
+        height: 995px;
+        justify-content: center;
+        align-items: center; 
+    }
+/* form container css */
+    .container-form {
+        width: 75%;
+        padding: 5%;
+    }
+        .container-form p a {
+            text-decoration: none;
+        }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 1%;
+        margin: auto;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+        input[type="submit"] {
+            background-color: #0f160f;
+            color: white;
+            padding: 1% 2%;
+            margin: auto;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 50%;
+        }
+            input[type="submit"]:hover {
+                background-color: #0e160f;
+            }
+    .btn .btn-dark {
+        width: 449px;
+        height: 40px;
+    }
+    .material-symbols-outlined {
+        margin-left: 7px;
+        font-size: 15px;
+    }
+    .logo-div {
+        padding: 5%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+        .logo-div img {
+            margin-bottom: 10%;
+            width: 70%;
+        }
+    .form-group {
+        margin:5%;
+    }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+            .form-group input::placeholder{
+                opacity: 0.3;
+                font-size: 14px;
+                margin-left: 1%;
+            }
+    .form-link {
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+        margin-top: -15px;
+    }
+        .form-item a {
+            color: black;
+            text-decoration: none;
+            display:inline-block;
+            align-content: center;
+            text-align: center;
+        }
+            .form-check-input {
+                margin-right: 10px;
+            }

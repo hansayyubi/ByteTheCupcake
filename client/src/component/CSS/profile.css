@@ -1,0 +1,126 @@
+/* Navigasi */
+nav {
+  background-color: #f4f5fb;
+}
+nav ul {
+  font-size: 0.8rem;
+}
+nav .img-logo {
+  width: 150px;
+}
+
+nav .navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+nav .navbar-toggler:focus,
+nav .btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+nav .nav-link {
+  position: relative;
+  color: #000;
+}
+nav .nav-link:hover,
+nav .nav-link:active {
+  color: #a6a6ac;
+}
+
+nav .user img {
+  width: 50px;
+}
+
+nav .container-fluid a {
+  border-radius: 0.5rem;
+}
+
+nav .container-fluid form {
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+nav .container-fluid form span {
+  border: none;
+  background-color: #a6a6ac transparent;
+  font-size: small;
+  border-radius: 30px;
+  padding: none;
+}
+nav .container-fluid form input {
+  border: none;
+  background-color: #a6a6ac transparent;
+  font-size: small;
+  color: #fff;
+  border-radius: 10px;
+}
+
+nav .container-fluid form input:focus {
+  border: none;
+  outline: none;
+}
+/* Akhir Navigasi */
+
+/* Isi Konten */
+.profile-img {
+  width: 150px;
+}
+.jumbotron {
+  padding: 5rem;
+  background-color: transparent;
+}
+.jumbotron .card {
+  max-width: 540px;
+  border: none;
+  background-color: transparent;
+}
+
+.jumbotron .card p {
+  font-size: 30px;
+}
+.jumbotron .card p {
+  font-size: 30px;
+}
+
+section button {
+  width: 160px;
+  height: 40px;
+  border-radius: 100px;
+}
+section .hero .container .jumbotron .btn-group button {
+  border-radius: 20px;
+  font-weight: 700;
+}
+section .hero .container .jumbotron .btn-group button:hover,
+section .hero .container .jumbotron .btn-group button:active {
+  background-color: #f5f5f5;
+  color: #d4d4d4;
+}
+#profile-upload {
+  display: none;
+}
+
+/* Akhir Isi Konten */
+
+/* Footer */
+img {
+  width: 50%;
+}
+
+.isi-font {
+  font-family: Handjet, sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-decoration-line: none;
+}
+.halaman {
+  text-decoration-line: none;
+  font-size: 0.8em;
+  position: relative;
+  color: #000;
+}
+.halaman:hover,
+.halaman:active {
+  color: #a6a6ac;
+}
+/* Akhir Footer */

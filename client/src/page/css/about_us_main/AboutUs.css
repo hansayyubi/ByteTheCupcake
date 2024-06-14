@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@font-face {
+    font-family: "handjet";
+    src: url('../../../public/Handjet/Handjet-VariableFont_ELGR\,ELSH\,wght.ttf');
+    }
+.body {
+    font-family: "Handjet", sans-serif;
+    background-color: #000000;
+    color: #fff;
+}
+
+nav{
+    background-color: #F4F5FB;
+    font-family: "Poppins", sans-serif;
+}
+nav ul{
+    font-size: 0.8rem;
+}
+nav .img-logo{
+    width: 150px;
+}
+
+nav .navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+nav .button-black{
+    background-color: #000;
+    color: #fff;
+    
+}
+nav .button-black:hover, nav .button-black:active{
+    background-color: #dddddd;
+    color: #000;
+    border-color: #000;
+}
+nav .navbar-toggler:focus, nav .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+nav .nav-link {
+    position: relative;
+    color: #000;
+}
+nav .nav-link:hover, nav .nav-link:active{
+    color: #a6a6ac;
+}
+
+nav .user img{
+    width: 50px;    
+}
+
+nav .container-fluid a{
+    border-radius: 0.5rem;
+}
+
+nav .container-fluid form{
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+nav .container-fluid form span{
+    border: none;
+    background-color: #a6a6ac transparent;
+    font-size: small;
+    border-radius: 30px;
+    padding: none;
+}
+nav .container-fluid form input{
+    border: none;
+    background-color: #a6a6ac transparent;
+    font-size: small;
+    color: #fff;
+    border-radius: 10px;
+}
+
+nav .container-fluid form input:focus {
+    border: none;
+    outline: none;
+}
+
+/* Isi konten */
+
+.text {
+    transform: rotate(-15deg); /* Miringkan teks */
+}
+.text-turun{
+    transform: rotate(+15deg);
+}
+section .jumbotron .disco{
+    padding-top: 20rem;
+    background-color: transparent;
+}
+
+/* Footer */
+
+.tombol{
+    font-family: "Poppins", sans-serif;
+}
+.isi-font{
+    font-family: Handjet, sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-decoration-line: none;
+}
+.halaman{
+    text-decoration-line: none;
+    font-size: 0.8em;
+    position: relative;
+    color: #000;
+}
+.halaman:hover, .halaman:active{
+    color: #a6a6ac;
+}

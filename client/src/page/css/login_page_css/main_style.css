@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: auto;
+    padding: auto;
+}
+.container-loginPage {
+    display: flex;
+    width: 1920px;
+    height: 995px;
+}
+/* left container css */
+    .container-loginPage .left-container {
+        width: inherit (50%);
+        height: inherit;
+    }
+        .left-container img {
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        }
+/* right container css */
+    .container-loginPage .right-container {
+        display: flex;
+        width: 960px;
+        height: inherit;
+        justify-content: center;
+        align-items: center; 
+    }
+    /* button css here */
+        .container-btn {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+        }
+/* form container css */
+    .container-form {
+        width: 75%;
+        padding: 5%;
+    }
+        .container-form p a {
+            text-decoration: none;
+        }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 1%;
+        margin: auto;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+        input[type="submit"] {
+            background-color: #0f160f;
+            color: white;
+            padding: 1% 2%;
+            margin: auto;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 50%;
+        }
+            input[type="submit"]:hover {
+                background-color: #0e160f;
+            }
+    .btn .btn-dark {
+        width: 449px;
+        height: 40px;
+    }
+    .material-symbols-outlined {
+        margin-left: 7px;
+        font-size: 15px;
+    }
+    .logo-div {
+        padding: 5%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+        .logo-div img {
+            margin-bottom: 10%;
+            width: 70%;
+        }
+    .form-group {
+        margin:5%;
+    }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group .input-label ::placeholder{
+            margin-left: 10px;
+        }
+    .form-link {
+        display: flex;
+        justify-content: space-between;
+        margin: 5%;
+        margin-top: -15px;
+    }
+        .form-link .form-item a {
+            color: black;
+            text-decoration: none;
+        }

@@ -1,0 +1,8 @@
+.container .row .col .btn a {
+    color: black;
+    font-weight: bold;
+}
+.container .row .col .btn a:hover {
+    color: rgb(173, 173, 173);
+    font-weight: normal;
+}

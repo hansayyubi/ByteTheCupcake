@@ -1,0 +1,91 @@
+/* Isi Konten */
+body {
+  width: auto;
+  height: auto;
+}
+.hero {
+  width: 1920px;
+  height: 1677px;
+  background-image: url(../../../public/img/profile/bg_user-prfile.webp);
+  background-color: #000;
+  object-fit: cover;
+}
+.hero .container {
+  background-color: #ffff;
+
+}
+.profile-img{
+  width: 150px;
+}
+.jumbotron{
+  padding: 5rem;
+  background-color: transparent;
+}
+.jumbotron .card{
+  border: none; 
+  background-color: transparent;
+}
+
+.jumbotron .card p{
+  font-size: 30px;
+}
+.Jumbotron{
+  width: max-content;
+  
+}
+.text {
+  transform: rotate(-15deg); /* Miringkan teks */
+}
+.text-turun{
+  transform: rotate(+15deg);
+}
+section .jumbotron .disco{
+  padding-top: 20rem;
+  background-color: transparent;
+}
+section .container .vl{
+  border: 0.5px solid #B8B8B8;
+  height: 100%;
+}
+
+section .container .cuppon{
+  text-decoration-line: none;
+  background-color: #CDCDCD;
+  color: #000;
+  width: 20%; 
+  
+}
+
+section .container .cuppon:hover, section .container .cuppon:active{
+  color: #fff;
+  background-color: #000;
+}
+section .container .button-black{
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+section .container .button-black:hover, section .container .button-black:active{
+  background-color: #dddddd;
+  color: #000;
+}
+section button{
+  width: 160px;
+  height: 40px;
+  border-radius: 100px;
+}
+section .hero .container .jumbotron .btn-group button{
+  border-radius: 20px;
+  font-weight: 700;
+  
+}
+section .hero .container .jumbotron .btn-group button:hover, section .hero .container .jumbotron .btn-group button:active{
+  background-color: #F5F5F5;
+  color: #d4d4d4;
+}
+
+#profile-upload{
+  display: none;
+
+}
+/* Akhir Isi Konten */
